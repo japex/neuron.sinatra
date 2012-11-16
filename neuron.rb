@@ -1,7 +1,7 @@
 
 require 'sinatra'
 
-require 'model/neuron_loggedin'
+require_relative 'model/neuron_loggedin'
 
 
 DEFAULT_DAYS_TO_SHOW = 4
